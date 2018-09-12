@@ -1,6 +1,6 @@
-# diff-json
-[![Build Status](https://travis-ci.org/viruschidai/diff-json.png?branch=master)](https://travis-ci.org/viruschidai/diff-json)
-[![Downloads](https://img.shields.io/npm/dm/diff-json.svg)](https://www.npmjs.com/package/diff-json)
+# json-compare
+[![Build Status](https://travis-ci.org/viruschidai/json-compare.png?branch=master)](https://travis-ci.org/viruschidai/json-compare)
+[![Downloads](https://img.shields.io/npm/dm/json-compare.svg)](https://www.npmjs.com/package/json-compare)
 
 A diff tool for javascript objects inspired by https://github.com/eugeneware/changeset.
 
@@ -14,7 +14,7 @@ If a key is specified for an embedded array, the diff will be generated based on
 
 ```javascript
 
-  var changesets = require('diff-json');
+  var changesets = require('json-compare');
   var newObj, oldObj;
 
   oldObj = {
@@ -74,7 +74,7 @@ If a key is specified for an embedded array, the diff will be generated based on
 
 ```javascript
 
-  var changesets = require('diff-json');
+  var changesets = require('json-compare');
   var oldObj = {
     name: 'joe',
     age: 55,
@@ -132,7 +132,7 @@ If a key is specified for an embedded array, the diff will be generated based on
 
 ```javascript
 
-  var changesets = require('diff-json');
+  var changesets = require('json-compare');
 
   var newObj = {
     name: 'smith',
@@ -188,7 +188,7 @@ If a key is specified for an embedded array, the diff will be generated based on
 ## Get started
 
 ```
-npm install diff-json
+npm install json-compare
 ```
 
 ## Run the test
