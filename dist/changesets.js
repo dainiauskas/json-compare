@@ -53,7 +53,8 @@
               changes.push({
                 type: changeset.op.UPDATE,
                 key: getKey(path),
-                changes: diffs
+                changes: diffs,
+                value: newObj
               });
             } else {
               changes = changes.concat(diffs);

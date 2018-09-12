@@ -44,7 +44,7 @@
         diffs = compareObject oldObj, newObj, path, embededObjKeys, keyPath
         if diffs.length
           if path.length
-            changes.push type: changeset.op.UPDATE, key: getKey(path), changes: diffs
+            changes.push type: changeset.op.UPDATE, key: getKey(path), changes: diffs, value: newObj
           else
             changes = changes.concat diffs
       when 'Array'
